@@ -1,4 +1,4 @@
-# eshopping-web
+# next-with-semantic-ui
 
 ## Frameworks
 
@@ -11,7 +11,9 @@ Main frameworks used
 
 ## How to start
 
-
+1. `yarn`
+1. `yarn dev` for development
+1. `yarn start` for production
 
 ## Theming
 

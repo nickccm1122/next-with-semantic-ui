@@ -1,5 +1,5 @@
 {
-  "name": "eshopping-web",
+  "name": "next-with-semantic-ui",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -11,7 +11,7 @@
     "lint": "standard --verbose | snazzy",
     "precommit": "yarn git-hook",
     "prepush": "yarn git-hook",
-    "start": "next start src",
+    "start": "NODE_ENV=production node server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
